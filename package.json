@@ -5,8 +5,9 @@
   "main": "index.js",
   "private": false,
   "scripts": {
-    "test": "nyc mocha",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "test": "mocha",
+    "nyc": "nyc npm test && nyc report --reporter=text-lcov",
+    "coverage": "npm run nyc | coveralls"
   },
   "nyc": {
     "include": [
