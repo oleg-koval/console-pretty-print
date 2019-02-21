@@ -2,7 +2,7 @@ console-pretty
 
 ---
 
-[![CircleCI](https://circleci.com/gh/oleg-koval/console-pretty-js/tree/master.svg?style=svg)](https://circleci.com/gh/oleg-koval/console-pretty-js/tree/master) [![Coverage Status](https://coveralls.io/repos/github/oleg-koval/console-pretty-js/badge.svg?branch=master)](https://coveralls.io/github/oleg-koval/console-pretty-js?branch=master)
+[![CircleCI](https://circleci.com/gh/oleg-koval/console-pretty-js/tree/master.svg?style=svg)](https://circleci.com/gh/oleg-koval/console-pretty-js/tree/master) [![codecov](https://codecov.io/gh/oleg-koval/console-pretty-js/branch/master/graph/badge.svg)](https://codecov.io/gh/oleg-koval/console-pretty-js)
 
 # Description
 
