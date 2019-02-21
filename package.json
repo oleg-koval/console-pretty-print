@@ -1,5 +1,5 @@
 {
-  "name": "console-pretty",
+  "name": "console-pretty-print",
   "version": "0.0.0-development",
   "description": "Adds pretty print to console.",
   "main": "index.js",

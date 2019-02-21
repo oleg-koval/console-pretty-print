@@ -1,4 +1,4 @@
-console-pretty
+console-pretty-print
 
 ---
 
@@ -6,20 +6,20 @@ console-pretty
 
 # Description
 
-Adds "pretty print" functionality for `console`
+Adds "console-pretty-print" functionality for `console`
 
 # Install
 
 ```sh
-npm install console-pretty
+npm install console-pretty-print
 ```
 
 # Usage
 
-Add `require("console-pretty");` as the first line of the app's main module.
+Add `require("console-pretty-print");` as the first line of the app's main module.
 
 ```js
-require("console-pretty");
+require("console-pretty-print");
 
 console.pretty({
   one: 1,
