@@ -1,0 +1,26 @@
+{
+  "name": "console-pretty",
+  "version": "1.0.0",
+  "description": "Adds pretty print to console.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "nyc": {
+    "include": [
+      "index.js"
+    ]
+  },
+  "author": "Oleg Koval",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.2",
+    "mocha": "^6.0.0",
+    "mocha-sinon": "^2.1.0",
+    "nyc": "^13.3.0",
+    "sinon": "^7.2.4",
+    "sinon-chai": "^3.3.0"
+  }
+}
