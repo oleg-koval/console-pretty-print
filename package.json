@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Adds pretty print to console.",
   "main": "index.js",
+  "private": false,
   "scripts": {
     "test": "nyc mocha",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
@@ -12,7 +13,7 @@
       "index.js"
     ]
   },
-  "author": "Oleg Koval",
+  "author": "Oleg Koval <kvl.olg@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",

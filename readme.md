@@ -2,6 +2,8 @@ console-pretty
 
 ---
 
+[![CircleCI](https://circleci.com/gh/oleg-koval/console-pretty-js/tree/master.svg?style=svg)](https://circleci.com/gh/oleg-koval/console-pretty-js/tree/master) [![Coverage Status](https://coveralls.io/repos/github/oleg-koval/console-pretty-js/badge.svg?branch=master)](https://coveralls.io/github/oleg-koval/console-pretty-js?branch=master)
+
 # Description
 
 Adds "pretty print" functionality for `console`
