@@ -6,9 +6,8 @@
   "types": "index.d.ts",
   "private": false,
   "scripts": {
-    "test": "mocha",
-    "nyc": "nyc npm test && nyc report --reporter=text-lcov",
-    "coverage": "npm run nyc | coveralls"
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "repository": {
     "type": "git",
@@ -31,7 +30,7 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",
-    "coveralls": "^3.0.2",
+    "codecov": "^3.2.0",
     "mocha": "^6.0.0",
     "mocha-sinon": "^2.1.0",
     "nyc": "^13.3.0",
