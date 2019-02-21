@@ -3,11 +3,25 @@
   "version": "1.0.0",
   "description": "Adds pretty print to console.",
   "main": "index.js",
+  "types": "index.d.ts",
   "private": false,
   "scripts": {
-    "test": "nyc mocha",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "test": "mocha",
+    "nyc": "nyc npm test && nyc report --reporter=text-lcov",
+    "coverage": "npm run nyc | coveralls"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oleg-koval/console-pretty-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "pretty print",
+    "console.pretty",
+    "console pretty",
+    "utility",
+    "console.log"
+  ],
   "nyc": {
     "include": [
       "index.js"
