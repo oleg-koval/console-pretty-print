@@ -20,7 +20,8 @@
     "console.pretty",
     "console pretty",
     "utility",
-    "console.log"
+    "console.log",
+    "log"
   ],
   "nyc": {
     "include": [
