@@ -2,7 +2,7 @@ console-pretty-print
 
 ---
 
-[![CircleCI](https://circleci.com/gh/oleg-koval/console-pretty-js/tree/master.svg?style=svg)](https://circleci.com/gh/oleg-koval/console-pretty-js/tree/master) [![codecov](https://codecov.io/gh/oleg-koval/console-pretty-js/branch/master/graph/badge.svg)](https://codecov.io/gh/oleg-koval/console-pretty-js) [![Greenkeeper badge](https://badges.greenkeeper.io/oleg-koval/console-pretty-print.svg)](https://greenkeeper.io/)
+[![CircleCI](https://circleci.com/gh/oleg-koval/console-pretty-print/tree/master.svg?style=svg)](https://circleci.com/gh/oleg-koval/console-pretty-print/tree/master) [![codecov](https://codecov.io/gh/oleg-koval/console-pretty-js/branch/master/graph/badge.svg)](https://codecov.io/gh/oleg-koval/console-pretty-js) [![Greenkeeper badge](https://badges.greenkeeper.io/oleg-koval/console-pretty-print.svg)](https://greenkeeper.io/)
 
 # Description
 
