@@ -1,6 +1,6 @@
 {
   "name": "console-pretty-print",
-  "version": "0.0.0-development",
+  "version": "1.0.3",
   "description": "Adds pretty print to console.",
   "main": "index.js",
   "types": "index.d.ts",
